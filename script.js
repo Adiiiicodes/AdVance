@@ -396,16 +396,17 @@ const Components = {
     
             // Common chart colors (orange shades)
             const colors = {
-                line: 'rgb(255, 159, 64)',
+                line: '#1d4ed8',
                 pie: [
-                    'rgb(255, 159, 64)',  // orange
-                    'rgb(255, 127, 80)',  // coral
-                    'rgb(255, 140, 0)',   // dark orange
-                    'rgb(255, 165, 0)',   // orange
-                    'rgb(255, 179, 71)',  // mellow orange
-                    'rgb(255, 197, 92)'   // light orange
-                ],
-                bar: 'rgb(255, 159, 64)'
+        '#1d4ed8', // blue
+        '#2563eb', // medium blue
+        '#3b82f6', // bright blue
+        '#60a5fa', // light blue
+        '#93c5fd', // sky blue
+        '#bfdbfe'  // very light blue
+],
+    bar: '#1d4ed8'
+
             };
     
             // Create Historic Trend Line Chart
